@@ -2,6 +2,8 @@
 
 SecureGPT is an AI-powered cybersecurity education assistant designed to help users learn about security concepts, best practices, and common vulnerabilities. It provides accurate and helpful information on cybersecurity topics while ensuring user-friendly interaction.
 
+![Logo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeBJwYHhnnkKNk7VcivJpurDBCqb8GGtnRBsH1Uzv74ORXfIyfiyy5pi0tCIccCTIPmkFL0AQRmeBSEKxjoiwjpVNbZAoHQlicivr60FZcDBdcAEpM2JVyl0kKWuLhgS0Kw9pz6eau0fk11g3veTAlDe0HaDfZWhU29A-nYSRosLbyW0XSdQM9iIJbQkVG/s963/Screenshot%202025-02-03%20185710.png)
+
 ## Features
 
 - Interactive chatbot for cybersecurity queries
@@ -34,11 +36,6 @@ Using npm:
 npm install
 ```
 
-Or using yarn:
-```sh
-yarn install
-```
-
 ### Setup Ollama and Deepseek-Coder
 
 1. Install [Ollama](https://ollama.ai/docs/installation) on your system.
@@ -64,14 +61,7 @@ Run the development server:
 npm run dev
 ```
 
-Or for production build:
-
-```sh
-npm run build
-npm start
-```
-
-The app will be accessible at `http://localhost:3000`.
+The app will be accessible at `http://localhost:5173`.
 
 ## Usage
 
