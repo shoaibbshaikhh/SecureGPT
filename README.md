@@ -1,4 +1,17 @@
-# SecureGPT
+<h1 align="center">
+  SecureGPT
+  <br>
+</h1>
+
+<h4 align="center">An AI-powered cybersecurity education assistant.</h4>
+
+
+<p align="center">
+<a href="https://github.com/shoaibbshaikhh/SecureGPT/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+<a href="https://github.com/shoaibbshaikhh/SecureGPT/releases"><img src="https://img.shields.io/github/release/shoaibbshaikhh/SecureGPT"></a>
+</p>
+
+---
 
 SecureGPT is an AI-powered cybersecurity education assistant designed to help users learn about security concepts, best practices, and common vulnerabilities. It provides accurate and helpful information on cybersecurity topics while ensuring user-friendly interaction.
 
