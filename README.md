@@ -2,12 +2,12 @@
 
 SecureGPT is an AI-powered cybersecurity education assistant designed to help users learn about security concepts, best practices, and common vulnerabilities. It provides accurate and helpful information on cybersecurity topics while ensuring user-friendly interaction.
 
-![Logo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeBJwYHhnnkKNk7VcivJpurDBCqb8GGtnRBsH1Uzv74ORXfIyfiyy5pi0tCIccCTIPmkFL0AQRmeBSEKxjoiwjpVNbZAoHQlicivr60FZcDBdcAEpM2JVyl0kKWuLhgS0Kw9pz6eau0fk11g3veTAlDe0HaDfZWhU29A-nYSRosLbyW0XSdQM9iIJbQkVG/s963/Screenshot%202025-02-03%20185710.png)
+![Logo](https://github.com/shoaibbshaikhh/SecureGPT/blob/main/logo.png)
 
 ## Features
 
 - Interactive chatbot for cybersecurity queries
-- Real-time response generation using `deepseek-coder:6.7b`
+- Real-time response generation using `deepseek-coder-v2`
 - Identity filtering to maintain a focused security discussion
 - Simple and clean UI with Tailwind CSS styling
 - Secure and ethical AI interaction
@@ -20,7 +20,7 @@ Before running SecureGPT, ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (v16 or later)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-- [Ollama](https://ollama.ai/) for running `deepseek-coder:6.7b`
+- [Ollama](https://ollama.ai/) for running `deepseek-coder-v2`
 
 ### Clone the Repository
 
@@ -39,16 +39,16 @@ npm install
 ### Setup Ollama and Deepseek-Coder
 
 1. Install [Ollama](https://ollama.ai/docs/installation) on your system.
-2. Pull the `deepseek-coder:6.7b` model:
+2. Pull the `deepseek-coder-v2` model:
 
 ```sh
-ollama pull deepseek-coder:6.7b
+ollama pull deepseek-coder-v2
 ```
 
 3. Start the model server:
 
 ```sh
-ollama run deepseek-coder:6.7b
+ollama run deepseek-coder-v2
 ```
 
 Ensure that the model is running on `localhost:11434` before starting the SecureGPT application.
